@@ -40,6 +40,7 @@ function adivinhar() {
 
                 case 1:
                     --tentativas
+                    resultado.style.color = 'red'
                     resultado.textContent = `game over!`
                     botaoAdivinhar.disabled = true
                     break;
