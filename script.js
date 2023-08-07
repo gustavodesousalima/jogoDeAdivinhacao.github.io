@@ -1,4 +1,4 @@
-let numeroAleatorio = 4;
+let numeroAleatorio = Math.floor(Math.random() * 11);
 let resultado = document.getElementById("resultado");
 let botaoAdivinhar = document.getElementById("botaoAdivinhar");
 let tentativas = 3;
