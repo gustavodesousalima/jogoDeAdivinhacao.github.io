@@ -37,9 +37,15 @@ p {
     font-size: 1.5rem;
 }
 
+input {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 @media screen and (max-width: 460px) {
     h1 {
         font-size: 1.4rem;
+        margin-top: 2vh;
         margin-bottom: 5vh;
     }
 
@@ -53,4 +59,9 @@ p {
         font-size: 1.5rem;
         background-color: rgb(254, 254, 254);
     }
+
+    p {
+        font-size: 1.2rem;
+    }
+
 }

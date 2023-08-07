@@ -1,9 +1,9 @@
-let numeroAleatorio = Math.floor(Math.random() * 11);
+let numeroAleatorio = 4;
 let resultado = document.getElementById("resultado");
 let botaoAdivinhar = document.getElementById("botaoAdivinhar");
 let tentativas = 3;
 function adivinhar() {
-    
+
     let numeroUsuario = Number(document.getElementById("numerousuario").value);
 
     if (tentativas > 0) {
